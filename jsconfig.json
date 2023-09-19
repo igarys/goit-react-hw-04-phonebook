@@ -2,5 +2,5 @@
   "compilerOptions": {
     "baseUrl": "src"
   },
-  "include": ["src", "src/components/SearchFilter", "src/components/src/components/index.jsist"src/components/App.jsxcomponents/ContactForm", "index.js", "App.jsx"]
+  "include": ["src", "src/components/SearchFilter", "src/components/ContactList", "src/components/ContactForm", "index.js", "App.jsx"]
 }
