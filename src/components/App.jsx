@@ -12,13 +12,13 @@ export const App = () => {
 
   const [filter, setFilter] = useState("");
 
-  const setLocalStorage = () => {
-    console.log("comp did update");
-    const savedContacts = JSON.stringify(contacts);
-    localStorage.setItem("contact", savedContacts);
-  };
-
+  
   useEffect(() => {
+    const setLocalStorage = () => {
+      console.log("comp did update");
+      const savedContacts = JSON.stringify(contacts);
+      localStorage.setItem("contact", savedContacts);
+    };
     setLocalStorage();
   }, [contacts]);
 
